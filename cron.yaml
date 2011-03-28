@@ -1,0 +1,4 @@
+cron:
+- description: Queue up scrapes
+  url: /cron/scrape
+  schedule: every 60 minutes

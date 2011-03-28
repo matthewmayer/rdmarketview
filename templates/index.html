@@ -1,0 +1,6 @@
+<table>
+<tr><th>Pos</th><th>Name</th></tr>
+{%for app in apps%}
+  <tr><td>{{app.rank}}</td><td><a href="https://market.android.com/details?id={{app.uniqueid}}">{{app.name}}</a></td></tr>
+{%endfor%}
+</table>
